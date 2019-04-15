@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <!-- 引入 Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/carousel.css" rel="stylesheet">
+    <!-- HTML5 Shiv 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <style>
+        /* Custom Styles */
+        ul.nav-tabs{
+            width: 140px;
+            margin-top: 20px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+        }
+        ul.nav-tabs li{
+            margin: 0;
+            border-top: 1px solid #ddd;
+        }
+        ul.nav-tabs li:first-child{
+            border-top: none;
+        }
+        ul.nav-tabs li a{
+            margin: 0;
+            padding: 8px 16px;
+            border-radius: 0;
+        }
+        ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+            color: #fff;
+            background: #0088cc;
+            border: 1px solid #0088cc;
+        }
+        ul.nav-tabs li:first-child a{
+            border-radius: 4px 4px 0 0;
+        }
+        ul.nav-tabs li:last-child a{
+            border-radius: 0 0 4px 4px;
+        }
+        ul.nav-tabs.affix{
+            top: 30px; /* Set the top position of pinned element */
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $('#navbar').load("/common/navbar.html");
+            $('#footer').load("/common/footer.html");
+            $("#myNav").affix({
+                offset: {
+                    top: 125
+                }
+            });
+        });
+    </script>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy">
+
+<div id="navbar" class="container">
+</div>
+
+<div class="container mainpic">
+    <div class="jumbotron" style="background-image:url(/images/index_0.jpg);background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;">
+        <h1>&nbsp;</h1>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-3" id="myScrollspy">
+            <ul class="nav nav-tabs nav-stacked" id="myNav">
+                <li class="active"><a href="#section-1">公司概况</a></li>
+                <li><a href="#section-2">发展历程</a></li>
+                <li><a href="#section-3">认证体系</a></li>
+                <li><a href="#section-4">环境保护</a></li>
+                <li><a href="#section-5">REACH</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-9">
+            <h2 id="section-1">公司概括</h2>
+            <p>锦泰昌化工有限公司成立于1996年，是专业的氧化铁颜料生产企业，公司占地27万平方米，拥有员工近700人，年产销氧化铁系列颜料16万余吨，产品市场遍及全国各省、市、区及五大洲八十多个国家和地区，2017年产值近6000万元人民币。</p>
+            <p>公司产品种类齐全，有氧化铁红、氧化铁黄、氧化铁黑、氧化铁橙、氧化铁棕、复合铁绿以及超细、焙烧、颗粒、耐温等深加工系列近两百个品种，更有应用于烟草、电子、医药、化妆品、食品、橡塑、造纸等行业的科技含量高、附加值高的新型产品数十种。</p>
+            <p>公司于1998年通过ISO9001国际质量标准体系认证，于2006年通过了ISO14001环境管理体系认证，并于2010年通过了GB/T28001职业健康安全管理体系认证，同年通过了欧盟严格要求的CE认证并完成了欧盟REACH正式注册，使产品技术质量水平跃上了一个新的台阶。</p>
+            <p>公司拥有先进的生产设备和工艺技术，完善的经营机制和内部管理，品质服务，并建成行业内较大规模的生产废水治理装置，从而稳定创造了可喜的经营业绩，赢得了国内外客户和社会的赞誉及信任。2006年被认定为“浙江省工商企业信用AAA级‘守合同重信用’单位”、“浙江名牌产品”；2009年被评为湖州市节能减排先进单位，外商投资十强企业、自营出口十强企业。2013年公司“HYROX”商标获浙江出口名牌，2014年公司通过高新技术企业复审、并被评为省级高新技术企业研发中心，2015年公司技术中心被认定为省级技术中心，并被评为省级能源计量示范单位。公司的烟草专用氧化铁黄等产品先后为评为国家重点新产品、国家火炬计划项目、浙江省高新技术产品。至今公司共获得专利41项，其中发明专利23项、实用新型专利18项，是浙江省专利示范企业。</p>
+            <p>公司坚持“以人为本、精细管理、科技兴业、产业报国”经营宗旨，以可持续发展为经营理念，不断提升企业的综合竞争实力，努力为世界增添缤纷色彩。</p>
+            <hr>
+            <h2 id="section-2">发展历程</h2>
+            <ul class="list-group">
+                <li class="list-group-item">2018年收购德清赛诺康颜料有限公司</li>
+                <li class="list-group-item">2017年合资成立广西永福华源科技有限公司</li>
+                <li class="list-group-item"><span class="badge">重要</span>2016年获得欧盟CE-B类认证</li>
+                <li class="list-group-item">2016年公司被评为省级能源计量示范单位</li>
+                <li class="list-group-item">2015年公司技术中心被认定为省级技术中心</li>
+                <li class="list-group-item">2014年公司被评为浙江省专利示范企业</li>
+                <li class="list-group-item">2014年公司通过高新技术企业复审</li>
+                <li class="list-group-item"><span class="badge">重要</span>2013年Brenntag优信邦泰与华源签订独家代理协议，在欧洲34个国家独家分销华源产品。</li>
+                <li class="list-group-item">2013年公司“HYROX”商标获浙江省出口名牌</li>
+                <li class="list-group-item"><span class="badge">重要</span>2012年非洲和中东化工品经销商Protea与华源签订独家代理协议，在非洲和中东13个国家独家分销华源产品。</li>
+                <li class="list-group-item">2011年公司被认定为高新技术企业</li>
+                <li class="list-group-item">2010年完成REACH注册,成为中国第一家成功注册的氧化铁制造商</li>
+                <li class="list-group-item">2010年获得GB/T28001认证（国际社会责任标准SA8000）</li>
+                <li class="list-group-item">2010年获得欧盟CE认证</li>
+                <li class="list-group-item"><span class="badge">重要</span>2007年通过ISO14001认证</li>
+                <li class="list-group-item">2005年公司年销售量首次突破10万吨，产量、销售额、出口创汇均列全国同行之首</li>
+                <li class="list-group-item">2004年公司3000KW热电联产项目投产</li>
+                <li class="list-group-item">2002年日本辔有限会社入股华源颜料</li>
+                <li class="list-group-item">2000年“HUAYUAN”商标在国家商标局成功注册</li>
+                <li class="list-group-item">1998年通过ISO9001国际标准质量体系认证</li>
+                <li class="list-group-item">1996年成立“锦泰昌化工有限公司”</li>
+            </ul>
+            <hr>
+            <h2 id="section-3">认证体系</h2>
+            <img src="/images/company/auth0.jpg" class="img-responsive" alt="Authentication">
+            <hr>
+            <h2 id="section-4">REACH</h2>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        公司于2010年11月29日完成了REACH注册。
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <p>氧化铁红，三氧化二铁，01-2119457614-35-****</p>
+                    <p>氧化铁黄，水合氧化铁，01-2119457554-33-****</p>
+                    <p>氧化铁黑，四氧化三铁，01-2119457646-28-****</p>
+                </div>
+            </div>
+            <hr>
+            <h2 id="section-5">环境保护</h2>
+            <p>与自然共存</p>
+            <p>亲近自然、爱护自然，是华源“为世界增添色彩”理念的一个重要组成部分。在创造高品质产品的同时，公司始终将环境保护作为可持续发展的重要前提，并认真落到实处。</p>
+            <p>为了消除废水对自然环境的影响，公司致力于工艺改进和优化，采取废水回用等措施进行源头治理和削减污染物排放。</p>
+            <p>2007年公司投资3000多万元，与国内各大知名院校和科研机构合作，在2008年8月建成并投产了日处理6000吨氨氮废水治理项目，使废水达到国家排放标准。</p>
+            <p>锦泰昌化工愿尽自己的一份微薄力量，为子孙后代留下一片蓝天碧水。</p>
+            <img src="/images/company/protection.jpg" class="img-responsive" alt="Environmental protection">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <hr class="featurette-divider">
+    <!-- FOOTER -->
+    <footer id="footer"></footer>
+</div>
+<!-- 包括所有已编译的插件 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
